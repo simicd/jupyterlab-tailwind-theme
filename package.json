@@ -56,12 +56,12 @@
     "extension": true,
     "themePath": "style/index.css"
   },
-  "homepage": "",
+  "homepage": "https://github.com/simicd/jupyterlab-tailwind-theme",
   "bugs": {
     "url": ""
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/simicd/jupyterlab-tailwind-theme"
   }
 }
