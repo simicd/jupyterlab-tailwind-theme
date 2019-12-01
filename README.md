@@ -2,6 +2,10 @@
 
 A JupyterLab theme extension inspired by [Tailwind](https://tailwindcss.com/).
 
+![](style/images/jupyterlab-tailwind-launcher-screen.png)
+</br>
+![](style/images/jupyterlab-tailwind-notebook-example.png)
+
 ## Prerequisites
 
 * JupyterLab
