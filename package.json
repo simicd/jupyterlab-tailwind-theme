@@ -1,13 +1,15 @@
 {
-  "name": "tailwind_theme",
+  "name": "jupyterlab-tailwind-theme",
   "version": "0.1.0",
-  "description": "A JupyterLab theme extension.",
+  "description": "A JupyterLab theme extension inspired by Tailwind.",
   "author": "simicd <10134699+simicd@users.noreply.github.com>",
   "keywords": [
     "jupyter",
     "jupyterlab",
     "jupyterlab-extension",
-    "jupyterlab-theme"
+    "jupyterlab-theme",
+    "tailwind",
+    "tailwindcss"
   ],
   "license": "BSD-3-Clause",
   "files": [

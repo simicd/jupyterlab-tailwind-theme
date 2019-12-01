@@ -16,3 +16,112 @@ pre {
   font-size: var(--jp-code-font-size);
   line-height: var(--jp-code-line-height);
 }
+
+
+/* Background color */
+body {
+  background: #F7FAFC;
+}
+
+
+/* -- Top panel/menu bar -- */
+#jp-top-panel,
+.p-MenuBar {
+  background: var(--jp-layout-color3);
+  color: white;
+}
+.p-MenuBar.p-mod-active .p-MenuBar-item.p-mod-active,
+.p-MenuBar-item:hover {
+  background: #44337A;
+  box-shadow: none;
+}
+.p-Menu {
+  margin-top: 2px;
+}
+
+
+/* -- File tabs -- */
+/* Remove blue background */
+.p-DockPanel-tabBar .p-TabBar-tab.jp-mod-current::before {
+  background: none;
+}
+/* Shrink tab width to content (remove space) */
+.p-DockPanel-tabBar .p-TabBar-tab {
+  flex: none;
+  color: #A0AEC0;
+}
+
+
+/* -- File toolbar -- */
+/* Remove file toolbar shadow */
+.jp-Toolbar {
+  box-shadow: none;
+}
+
+/* File menu button hover */
+button.jp-Button.bp3-button.bp3-minimal:hover {
+  background: var(--jp-layout-color2);
+}
+
+
+/* -- Status bar (bottom) --  */
+/* Status bar background*/
+.f17wptjy {
+  background: #4A5568;
+}
+
+/* Status bar font color */
+.f1235lqo {
+  color: white;
+}
+
+
+/* -- Sidebar -- */
+/* Sidebar icon hover effect */
+.jp-SideBar .p-TabBar-tab:hover:not(.p-mod-current),
+.jp-SideBar .p-TabBar-tab:hover:not(.p-mod-current) path {
+  fill:#5A67D8;
+  background: #E2E8F0;
+}
+
+/* Selected sidebar icon color */
+.jp-SideBar .p-TabBar-tab.p-mod-current path {
+  fill:#5A67D8;
+}
+
+/* Main screen icon */
+.jp-icon-accent2[fill] {
+  fill: var(--jp-layout-color3);
+}
+
+
+/* -- Editor -- */
+/* Change cursor color */
+.cm-fat-cursor .CodeMirror-cursor {
+  background: var(--jp-brand-color2);
+}
+
+/* Prevent cursor blinking */
+.jp-mod-selected .CodeMirror-cursors {
+  visibility: visible !important;
+}
+
+/* Input cell area */
+.jp-InputArea-editor {
+  border-radius: 4px;
+  padding: 8px 4px;
+}
+
+/* Max-widht for main content/cell blocks */
+.jp-Notebook .jp-Cell {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Input/Output number indicator */
+.jp-InputPrompt,
+.jp-OutputPrompt {
+  font-size: 0.8em;
+  margin-top: 8px;
+}
+

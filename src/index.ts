@@ -6,16 +6,16 @@ import {
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * A plugin for tailwind_theme
+ * A plugin for jupyterlab-tailwind-theme
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'tailwind_theme:plugin',
+  id: 'jupyterlab-tailwind-theme:plugin',
   requires: [IThemeManager],
   activate: function(app: JupyterFrontEnd, manager: IThemeManager) {
-    const style = 'tailwind_theme/index.css';
+    const style = 'jupyterlab-tailwind-theme/index.css';
 
     manager.register({
-      name: 'tailwind_theme',
+      name: 'Tailwind Light',
       isLight: true,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)

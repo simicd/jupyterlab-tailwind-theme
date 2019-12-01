@@ -1,6 +1,6 @@
-# tailwind_theme
+# JupyterLab Tailwind theme
 
-A JupyterLab theme extension.
+A JupyterLab theme extension inspired by [Tailwind](https://tailwindcss.com/).
 
 ## Prerequisites
 
@@ -9,7 +9,7 @@ A JupyterLab theme extension.
 ## Installation
 
 ```bash
-jupyter labextension install tailwind_theme
+jupyter labextension install jupyterlab-tailwind-theme
 ```
 
 ## Development

@@ -13,8 +13,8 @@ install:
   - pip install --upgrade ".[test]" -v
 script:
   - jupyter nbextension list
-  - jupyter nbextension enable --py --sys-prefix tailwind_theme
+  - jupyter nbextension enable --py --sys-prefix jupyterlab-tailwind-theme
   - pip install jupyterlab
   - jupyter labextension list
-  - jupyter labextension list 2>&1 | grep -q tailwind_theme
+  - jupyter labextension list 2>&1 | grep -q jupyterlab-tailwind-theme
   - jupyter labextension link
