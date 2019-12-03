@@ -97,8 +97,10 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 
 /* -- Editor -- */
 /* Change cursor color */
-.cm-fat-cursor .CodeMirror-cursor {
+.cm-fat-cursor .CodeMirror-cursor,
+.cm-animate-fat-cursor {
   background: var(--jp-brand-color2);
+  animation: none;
 }
 
 /* Prevent cursor blinking */
@@ -125,3 +127,61 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
   margin-top: 8px;
 }
 
+/* Set code line number background and remove border line */
+.CodeMirror-gutters,
+.cm-s-jupyter .CodeMirror-activeline-background, .cm-s-jupyter .CodeMirror-gutter {
+  border: none;
+  background-color: var(--jp-layout-color1);
+}
+
+
+/* Table style */
+.dataframe {
+  background: var(--jp-layout-color1);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.dataframe thead {
+  /* Table header color */
+  background-color: var(--tailwind-grey-200);
+}
+
+.dataframe thead th,
+.dataframe tbody td {
+  text-align: right;
+}
+
+.dataframe td {
+  /* Prevent that table body cells wrap the content */
+  white-space: nowrap;
+}
+
+.dataframe tr {
+  /* Light-grey row separation line */
+  border-bottom: 1px #2222 solid;
+}
+
+.dataframe tbody tr:nth-child(2n) {
+  /* Odd row number - do not color differently */
+  background: unset;
+}
+
+.dataframe tbody tr:hover {
+  /* Odd row number - use same focus color when hovering */
+  background: rgba(66, 165, 245, 0.2);
+}
+
+.dataframe > tbody > tr > th {
+  /* Index column(s) */
+  color: gray;
+  background-color: #f7f7f7;
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+.reveal table th, .reveal table td {
+  /*Ignore table border setting in RISE presentation */
+  border-bottom: none;
+}
