@@ -20,7 +20,7 @@ pre {
 
 /* Background color */
 body {
-  background: #F7FAFC;
+  background: var(--tailwind-grey-100);
 }
 
 
@@ -32,7 +32,7 @@ body {
 }
 .p-MenuBar.p-mod-active .p-MenuBar-item.p-mod-active,
 .p-MenuBar-item:hover {
-  background: #44337A;
+  background: var(--tailwind-purple-900);
   box-shadow: none;
 }
 .p-Menu {
@@ -48,7 +48,7 @@ body {
 /* Shrink tab width to content (remove space) */
 .p-DockPanel-tabBar .p-TabBar-tab {
   flex: none;
-  color: #A0AEC0;
+  color: var(--tailwind-grey-500);
 }
 
 
@@ -67,7 +67,7 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 /* -- Status bar (bottom) --  */
 /* Status bar background*/
 .f17wptjy {
-  background: #4A5568;
+  background: var(--tailwind-grey-700);
 }
 
 /* Status bar font color */
@@ -80,13 +80,13 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 /* Sidebar icon hover effect */
 .jp-SideBar .p-TabBar-tab:hover:not(.p-mod-current),
 .jp-SideBar .p-TabBar-tab:hover:not(.p-mod-current) path {
-  fill:#5A67D8;
-  background: #E2E8F0;
+  fill: var(--tailwind-indigo-600);
+  background: var(--tailwind-grey-300);
 }
 
 /* Selected sidebar icon color */
 .jp-SideBar .p-TabBar-tab.p-mod-current path {
-  fill:#5A67D8;
+  fill: var(--tailwind-indigo-600);
 }
 
 /* Main screen icon */
