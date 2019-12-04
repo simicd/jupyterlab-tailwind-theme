@@ -37,6 +37,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --tailwind-grey-700: #4A5568;
   --tailwind-grey-800: #2D3748;
   --tailwind-grey-900: #1A202C;
+  --tailwind-grey-950: #11151D;   /* Newly defined */
 
   --tailwind-blue-100: #EBF8FF;
   --tailwind-blue-200: #BEE3F8;
@@ -117,6 +118,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --tailwind-layout-color3: var(--tailwind-indigo-800);            /* Modified */
   --tailwind-layout-color4: var(--tailwind-grey-600);
 
+  --tailwind-inverse-layout-color2: var(--tailwind-grey-800);
   --tailwind-inverse-layout-color3: var(--tailwind-indigo-800);            /* Modified */
 
   /* -- Pre-existing variables as defined by JupyterLab -- */
@@ -435,28 +437,28 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-editor-cursor-color: var(--jp-ui-font-color0);
 
   /* Code mirror specific styles */
-  --jp-mirror-editor-keyword-color: var(--md-green-500);
-  --jp-mirror-editor-atom-color: var(--md-blue-300);
-  --jp-mirror-editor-number-color: var(--md-green-400);
-  --jp-mirror-editor-def-color: var(--md-blue-600);
+  --jp-mirror-editor-keyword-color: var(--tailwind-green-500);
+  --jp-mirror-editor-atom-color: var(--tailwind-blue-300);
+  --jp-mirror-editor-number-color: var(--tailwind-green-400);
+  --jp-mirror-editor-def-color: var(--tailwind-blue-600);
   --jp-mirror-editor-variable-color: var(--jp-content-font-color1);
-  --jp-mirror-editor-variable-2-color: var(--md-blue-400);
-  --jp-mirror-editor-variable-3-color: var(--md-green-600);
-  --jp-mirror-editor-punctuation-color: var(--md-blue-400);
-  --jp-mirror-editor-property-color: var(--md-blue-400);
+  --jp-mirror-editor-variable-2-color: var(--tailwind-blue-400);
+  --jp-mirror-editor-variable-3-color: var(--tailwind-green-600);
+  --jp-mirror-editor-punctuation-color: var(--tailwind-blue-400);
+  --jp-mirror-editor-property-color: var(--tailwind-blue-400);
   --jp-mirror-editor-operator-color: #aa22ff;
   --jp-mirror-editor-comment-color: #408080;
   --jp-mirror-editor-string-color: #ba2121;
-  --jp-mirror-editor-string-2-color: var(--md-purple-300);
+  --jp-mirror-editor-string-2-color: var(--tailwind-purple-300);
   --jp-mirror-editor-meta-color: #aa22ff;
   --jp-mirror-editor-qualifier-color: #555;
-  --jp-mirror-editor-builtin-color: var(--md-green-600);
+  --jp-mirror-editor-builtin-color: var(--tailwind-green-600);
   --jp-mirror-editor-bracket-color: #997;
-  --jp-mirror-editor-tag-color: var(--md-green-700);
-  --jp-mirror-editor-attribute-color: var(--md-blue-700);
-  --jp-mirror-editor-header-color: var(--md-blue-500);
-  --jp-mirror-editor-quote-color: var(--md-green-300);
-  --jp-mirror-editor-link-color: var(--md-blue-700);
+  --jp-mirror-editor-tag-color: var(--tailwind-green-700);
+  --jp-mirror-editor-attribute-color: var(--tailwind-blue-700);
+  --jp-mirror-editor-header-color: var(--tailwind-blue-500);
+  --jp-mirror-editor-quote-color: var(--tailwind-green-300);
+  --jp-mirror-editor-link-color: var(--tailwind-blue-700);
   --jp-mirror-editor-error-color: #f00;
   --jp-mirror-editor-hr-color: #999;
 
