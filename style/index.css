@@ -20,19 +20,19 @@ pre {
 
 /* Background color */
 body {
-  background: var(--tailwind-grey-100);
+  background: var(--tailwind-background-color);
 }
 
 
 /* -- Top panel/menu bar -- */
 #jp-top-panel,
 .p-MenuBar {
-  background: var(--jp-layout-color3);
+  background: var(--tailwind-menu-color);
   color: white;
 }
 .p-MenuBar.p-mod-active .p-MenuBar-item.p-mod-active,
 .p-MenuBar-item:hover {
-  background: var(--tailwind-purple-900);
+  background: var(--tailwind-indigo-900);
   box-shadow: none;
 }
 .p-Menu {
@@ -60,7 +60,7 @@ body {
 
 /* File menu button hover */
 button.jp-Button.bp3-button.bp3-minimal:hover {
-  background: var(--jp-layout-color2);
+  background: var(--tailwind-layout-color2);
 }
 
 
@@ -80,18 +80,18 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 /* Sidebar icon hover effect */
 .jp-SideBar .p-TabBar-tab:hover:not(.p-mod-current),
 .jp-SideBar .p-TabBar-tab:hover:not(.p-mod-current) path {
-  fill: var(--tailwind-indigo-600);
-  background: var(--tailwind-grey-300);
+  fill: var(--tailwind-layout-color3);
+  background: var(--tailwind-layout-color2);
 }
 
 /* Selected sidebar icon color */
 .jp-SideBar .p-TabBar-tab.p-mod-current path {
-  fill: var(--tailwind-indigo-600);
+  fill: var(--tailwind-layout-color3);
 }
 
 /* Main screen icon */
 .jp-icon-accent2[fill] {
-  fill: var(--jp-layout-color3);
+  fill: var(--tailwind-inverse-layout-color3);
 }
 
 
@@ -110,8 +110,8 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 
 /* Input cell area */
 .jp-InputArea-editor {
-  border-radius: 4px;
-  padding: 8px 4px;
+  border-radius: var(--jp-border-radius);
+  padding: var(--jp-code-padding);
 }
 
 /* Max-widht for main content/cell blocks */
@@ -124,23 +124,23 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 .jp-InputPrompt,
 .jp-OutputPrompt {
   font-size: 0.8em;
-  margin-top: 8px;
+  margin-top: var(--jp-code-padding);
 }
 
 /* Set code line number background and remove border line */
 .CodeMirror-gutters,
 .cm-s-jupyter .CodeMirror-activeline-background, .cm-s-jupyter .CodeMirror-gutter {
   border: none;
-  background-color: var(--jp-layout-color1);
+  background-color: var(--tailwind-layout-color1);
 }
 
 
 /* Table style */
 .dataframe {
-  background: var(--jp-layout-color1);
+  background: var(--tailwind-layout-color1);
   border-radius: 3px;
   overflow: hidden;
-  margin-top: 8px;
+  margin-top: var(--jp-code-padding);
 }
 
 .dataframe thead {
