@@ -2,9 +2,18 @@
 
 A JupyterLab theme extension inspired by [Tailwind](https://tailwindcss.com/).
 
-![](style/images/jupyterlab-tailwind-launcher-screen.png)
+## Light theme
+![](style/images/jupyterlab-tailwind-launcher-screen-light.png)
 </br>
-![](style/images/jupyterlab-tailwind-notebook-example.png)
+</br>
+![](style/images/jupyterlab-tailwind-notebook-example-light.png)
+</br>
+</br>
+## Dark theme
+![](style/images/jupyterlab-tailwind-launcher-screen-dark.png)
+</br>
+</br>
+![](style/images/jupyterlab-tailwind-notebook-example-dark.png)
 
 ## Prerequisites
 
