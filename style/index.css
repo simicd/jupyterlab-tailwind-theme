@@ -148,10 +148,22 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
   color: var(--jp-editor-cursor-color);     /* Error window line of failure */
 }
 
+/* Search box */
+.jp-DocumentSearch-overlay {
+  background-color: var(--tailwind-layout-color2);
+  box-shadow: var(--jp-elevation-z4);
+  padding: var(--jp-cell-padding);
+}
+.jp-DocumentSearch-input-wrapper,
+.jp-DocumentSearch-replace-entry {
+  border-radius: var(--jp-border-radius);
+  padding: 2px;
+}
+
 /* Table style */
 .dataframe {
   background: var(--tailwind-layout-color1);
-  border-radius: 3px;
+  border-radius: var(--jp-border-radius);
   overflow: hidden;
   margin-top: var(--jp-code-padding);
 }
@@ -197,4 +209,10 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 .reveal table th, .reveal table td {
   /*Ignore table border setting in RISE presentation */
   border-bottom: none;
+}
+
+
+/* Command palette */
+.p-CommandPalette-item.p-mod-active {
+  background: var(--tailwind-inverse-layout-color2);
 }
