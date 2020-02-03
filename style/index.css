@@ -161,14 +161,17 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 }
 
 /* Table style */
-.dataframe {
+/* .dataframe are typically pandas tables in cells while .jp-RenderedHTMLCommon are Markdown tables */
+.dataframe,
+.jp-RenderedHTMLCommon table {
   background: var(--tailwind-layout-color1);
   border-radius: var(--jp-border-radius);
   overflow: hidden;
   margin-top: var(--jp-code-padding);
 }
 
-.dataframe thead {
+.dataframe thead,
+.jp-RenderedHTMLCommon thead {
   /* Table header color */
   background-color: var(--tailwind-layout-color2);
 }
@@ -183,17 +186,20 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
   white-space: nowrap;
 }
 
-.dataframe tr {
+.dataframe tr,
+.jp-RenderedHTMLCommon tr {
   /* Light-grey row separation line */
   border-bottom: 1px var(--tailwind-inverse-layout-color2) solid;
 }
 
-.dataframe tbody tr:nth-child(2n) {
+.dataframe tbody tr:nth-child(2n),
+.jp-RenderedHTMLCommon tbody tr:nth-child(2n) {
   /* Odd row number - do not color differently */
   background: unset;
 }
 
-.dataframe tbody tr:hover {
+.dataframe tbody tr:hover,
+.jp-RenderedHTMLCommon tbody tr:hover {
   /* Odd row number - use same focus color when hovering */
   background: rgba(66, 165, 245, 0.2);
 }
