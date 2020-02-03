@@ -66,6 +66,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--jp-mirror-editor-link-color', 'var(--tailwind-blue-700)');
         document.documentElement.style.setProperty('--jp-mirror-editor-error-color', '#f00');
         document.documentElement.style.setProperty('--jp-mirror-editor-hr-color', '#999');
+        document.documentElement.style.setProperty('--jp-notebook-multiselected-color', 'var(--tailwind-blue-100)');
 
         return manager.loadCSS(style)
       },
@@ -122,6 +123,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--jp-mirror-editor-link-color', 'var(--tailwind-blue-700)');
         document.documentElement.style.setProperty('--jp-mirror-editor-error-color', '#f00');
         document.documentElement.style.setProperty('--jp-mirror-editor-hr-color', '#999');
+        document.documentElement.style.setProperty('--jp-notebook-multiselected-color', 'var(--tailwind-blue-900)');
 
         return manager.loadCSS(style)
       },
