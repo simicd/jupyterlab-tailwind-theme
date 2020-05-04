@@ -2,6 +2,10 @@
 
 A JupyterLab theme extension inspired by [Tailwind CSS](https://tailwindcss.com/).
 
+```
+  ✨ With support for new release of JupyterLab (>= v2.0)
+```
+
 ## Light theme
 ![](style/images/jupyterlab-tailwind-launcher-screen-light.png)
 </br>

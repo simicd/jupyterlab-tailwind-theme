@@ -1,7 +1,7 @@
 {
   "name": "jupyterlab-tailwind-theme",
   "version": "0.4.0",
-  "description": "A JupyterLab theme extension inspired by Tailwind.",
+  "description": "A JupyterLab theme extension inspired by Tailwind CSS.",
   "author": "simicd <10134699+simicd@users.noreply.github.com>",
   "keywords": [
     "jupyter",
@@ -58,7 +58,7 @@
   },
   "homepage": "https://github.com/simicd/jupyterlab-tailwind-theme",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/simicd/jupyterlab-tailwind-theme/issues"
   },
   "repository": {
     "type": "git",
