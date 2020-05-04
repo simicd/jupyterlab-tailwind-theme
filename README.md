@@ -1,6 +1,6 @@
 # JupyterLab Tailwind theme
 
-A JupyterLab theme extension inspired by [Tailwind](https://tailwindcss.com/).
+A JupyterLab theme extension inspired by [Tailwind CSS](https://tailwindcss.com/).
 
 ## Light theme
 ![](style/images/jupyterlab-tailwind-launcher-screen-light.png)
