@@ -68,6 +68,10 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--jp-mirror-editor-hr-color', '#999');
         document.documentElement.style.setProperty('--jp-notebook-multiselected-color', 'var(--tailwind-blue-100)');
 
+        // Search result highlighting
+        document.documentElement.style.setProperty('--jp-search-selected-match-background-color', 'var(--tailwind-green-400)');
+        document.documentElement.style.setProperty('--jp-search-unselected-match-background-color', 'var(--tailwind-green-200)');
+
         return manager.loadCSS(style)
       },
       unload: () => Promise.resolve(undefined)
@@ -124,6 +128,10 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--jp-mirror-editor-error-color', '#f00');
         document.documentElement.style.setProperty('--jp-mirror-editor-hr-color', '#999');
         document.documentElement.style.setProperty('--jp-notebook-multiselected-color', 'var(--tailwind-blue-900)');
+
+        // Search result highlighting
+        document.documentElement.style.setProperty('--jp-search-selected-match-background-color', 'var(--tailwind-green-600)');
+        document.documentElement.style.setProperty('--jp-search-unselected-match-background-color', 'var(--tailwind-green-800)');
 
         return manager.loadCSS(style)
       },
