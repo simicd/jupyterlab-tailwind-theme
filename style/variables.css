@@ -89,6 +89,16 @@ all of MD as it is not optimized for dense, information rich UIs.
   --tailwind-orange-800: #9C4221;
   --tailwind-orange-900: #7B341E;
 
+  --tailwind-yellow-100: #FFFFF0;
+  --tailwind-yellow-200: #FEFCBF;
+  --tailwind-yellow-300: #FAF089;
+  --tailwind-yellow-400: #F6E05E;
+  --tailwind-yellow-500: #ECC94B;
+  --tailwind-yellow-600: #D69E2E;
+  --tailwind-yellow-700: #B7791F;
+  --tailwind-yellow-800: #975A16;
+  --tailwind-yellow-900: #744210;
+
   --tailwind-red-100: #FFF5F5;
   --tailwind-red-200: #FED7D7;
   --tailwind-red-300: #FEB2B2;
@@ -435,6 +445,10 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* General editor styles */
 
   --jp-editor-selected-background: #d9d9d9;
+  /* --jp-search-selected-match-color: var(--); */
+  --jp-search-selected-match-background-color: var(--tailwind-green-400);
+  /* --jp-search-unselected-match-color: var(--); */
+  --jp-search-unselected-match-background-color: var(--tailwind-green-200);
   --jp-editor-selected-focused-background: #d7d4f0;
   --jp-editor-cursor-color: var(--jp-ui-font-color0);
 

@@ -114,6 +114,14 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
   padding: calc(var(--jp-code-padding) / 2);
 }
 
+/* Search highlight - make 1px higher to cover grey background */
+.cm-searching {
+  padding: 2px 2px;
+  margin: -2px -2px;
+  position: relative;     /* Set position since with default (position: static) z-index has no effect */
+  z-index: -10;           /* Position highlighting behind text */
+}
+
 /* Max-widht for main content/cell blocks */
 .jp-Notebook .jp-Cell {
   max-width: 1000px;
