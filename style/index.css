@@ -225,6 +225,11 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
   border-bottom: none;
 }
 
+/* Plots */
+/* Matplotlib */
+.jp-needs-light-background {
+  background-color: white !important;
+}
 
 /* Command palette */
 .p-CommandPalette-item.p-mod-active {
