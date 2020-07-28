@@ -18,6 +18,15 @@ A JupyterLab theme extension inspired by [Tailwind CSS](https://tailwindcss.com/
 </br>
 </br>
 ![](style/images/jupyterlab-tailwind-notebook-example-dark.png)
+</br>
+</br>
+
+Tip: To display matplotlib charts in dark mode execute `plt.style.use('dark_background')` after importing the package
+</br>
+![](style/images/matplotlib-tip-dark.png)
+</br>
+</br>
+</br>
 
 ## Prerequisites
 
