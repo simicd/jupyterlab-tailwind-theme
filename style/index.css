@@ -104,7 +104,7 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 }
 
 /* Prevent cursor blinking */
-.jp-mod-selected .CodeMirror-cursors {
+.CodeMirror-focused .CodeMirror-cursors {
   visibility: visible !important;
 }
 
