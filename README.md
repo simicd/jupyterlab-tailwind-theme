@@ -2,9 +2,10 @@
 
 A JupyterLab theme extension inspired by [Tailwind CSS](https://tailwindcss.com/).
 
-```
-  ✨ With support for new release of JupyterLab (>= v2.0)
-```
+## Changes
+> ✨ Support for new release of JupyterLab (>= v3.0)
+
+Thanks to [Wiktor Flis (@WestedCrean)](https://github.com/WestedCrean) for contributing this update!
 
 ## Light theme
 ![](style/images/jupyterlab-tailwind-launcher-screen-light.png)
@@ -40,11 +41,17 @@ jupyter labextension install jupyterlab-tailwind-theme
 
 ## Development
 
-For a development install (requires npm version 4 or later), do the following in the repository directory:
+For a development install, run the following commands in the repository directory:
 
 ```bash
-npm install
-jupyter labextension link .
+npm install                   # install npm package dependencies
+npm run build                 # optional build step if using TypeScript, babel, etc.
+jupyter labextension install  # install the current directory as an extension
+```
+
+For incremental builds use:
+```bash
+jupyter lab --watch
 ```
 
 To rebuild the package and the JupyterLab app:
@@ -53,3 +60,5 @@ To rebuild the package and the JupyterLab app:
 npm run build
 jupyter lab build
 ```
+
+See also JupyterLab's documentation [Development workflow for source extensions](https://jupyterlab.readthedocs.io/en/stable/extension/extension_dev.html#development-workflow-for-source-extensions)
