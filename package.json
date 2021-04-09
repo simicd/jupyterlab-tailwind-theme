@@ -2,7 +2,10 @@
   "name": "jupyterlab-tailwind-theme",
   "version": "3.0.0",
   "description": "A JupyterLab theme extension inspired by Tailwind CSS.",
-  "author": "simicd <10134699+simicd@users.noreply.github.com>",
+  "author": {
+    "name": "simicd",
+    "email": "10134699+simicd@users.noreply.github.com"
+  },
   "keywords": [
     "jupyter",
     "jupyterlab",
