@@ -16,7 +16,8 @@
     "lib/*.d.ts",
     "lib/*.js.map",
     "lib/*.js",
-    "style/*"
+    "style/*",
+    "style/index.js"
   ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -32,18 +33,26 @@
     "watch:webpack": "webpack --watch"
   },
   "dependencies": {
-    "@jupyterlab/application": "^2.1.2",
-    "@jupyterlab/apputils": "^2.1.1"
+    "@jupyterlab/application": "^3.0.7",
+    "@jupyterlab/apputils": "^3.0.5"
   },
   "devDependencies": {
-    "rimraf": "~3.0.2",
-    "typedoc": "~0.17.6",
-    "typescript": "~3.8.3",
+    "@jupyterlab/builder": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
     "css-loader": "~3.5.3",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "mini-css-extract-plugin": "~0.9.0",
-    "svgo": "~1.3.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.1.1",
+    "rimraf": "^3.0.2",
     "svg-url-loader": "~5.0.0",
+    "svgo": "~1.3.2",
     "svgo-loader": "~2.2.1",
+    "typedoc": "~0.17.6",
+    "typescript": "~4.1.3",
     "url-loader": "~4.1.0",
     "watch": "~1.0.2",
     "webpack": "~4.43.0",
@@ -54,7 +63,8 @@
   },
   "jupyterlab": {
     "extension": true,
-    "themePath": "style/index.css"
+    "themePath": "style/index.css",
+    "outputDir": "jupyterlab-tailwind-theme/labextension"
   },
   "homepage": "https://github.com/simicd/jupyterlab-tailwind-theme",
   "bugs": {
@@ -63,5 +73,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/simicd/jupyterlab-tailwind-theme"
-  }
+  },
+  "styleModule": "style/index.js"
 }
