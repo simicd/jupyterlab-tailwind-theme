@@ -71,7 +71,7 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 }
 
 /* Status bar font color */
-.f1235lqo {
+.f1235lqo, .jp-switch {
   color: white;
 }
 
@@ -234,4 +234,24 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 /* Command palette */
 .p-CommandPalette-item.p-mod-active {
   background: var(--tailwind-inverse-layout-color2);
+}
+
+/* Scrollbar */
+div {
+  /* Currently only supported in Firefox */
+  scrollbar-color: var(--tailwind-scrollbar-thumb-color) var(--tailwind-scrollbar-track-color);
+}
+div::-webkit-scrollbar {
+  background-color: var(--tailwind-scrollbar-track-color);
+  border-radius:  var(--jp-border-radius);
+}
+
+div::-webkit-scrollbar-track {
+  background-color: var(--tailwind-scrollbar-track-color);
+  border-radius:  var(--jp-border-radius);
+}
+
+div::-webkit-scrollbar-thumb {
+  background-color: var(--tailwind-scrollbar-thumb-color);
+  border-radius:  var(--jp-border-radius);
 }

@@ -131,6 +131,10 @@ all of MD as it is not optimized for dense, information rich UIs.
   --tailwind-inverse-layout-color2: var(--tailwind-grey-800);
   --tailwind-inverse-layout-color3: var(--tailwind-indigo-800);            /* Modified */
 
+  /* Scrollbar */
+  --tailwind-scrollbar-track-color: var(--tailwind-layout-color0);
+  --tailwind-scrollbar-thumb-color: var(--tailwind-grey-400);
+
   /* -- Pre-existing variables as defined by JupyterLab -- */
   /* Elevation
    *

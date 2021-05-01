@@ -72,6 +72,9 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--jp-search-selected-match-background-color', 'var(--tailwind-green-400)');
         document.documentElement.style.setProperty('--jp-search-unselected-match-background-color', 'var(--tailwind-green-200)');
 
+        // Scrollbar color
+        document.documentElement.style.setProperty('--tailwind-scrollbar-thumb-color', 'var(--tailwind-grey-400)');
+
         return manager.loadCSS(style)
       },
       unload: () => Promise.resolve(undefined)
@@ -132,6 +135,9 @@ const plugin: JupyterFrontEndPlugin<void> = {
         // Search result highlighting
         document.documentElement.style.setProperty('--jp-search-selected-match-background-color', 'var(--tailwind-green-600)');
         document.documentElement.style.setProperty('--jp-search-unselected-match-background-color', 'var(--tailwind-green-800)');
+
+        // Scrollbar color
+        document.documentElement.style.setProperty('--tailwind-scrollbar-thumb-color', 'var(--tailwind-grey-700)');
 
         return manager.loadCSS(style)
       },
