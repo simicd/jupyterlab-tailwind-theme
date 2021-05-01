@@ -25,7 +25,7 @@ body {
 
 
 /* -- Top panel/menu bar -- */
-#jp-top-panel,
+#jp-top-panel, #jp-menu-panel,
 .p-MenuBar {
   background: var(--tailwind-menu-color);
   color: white;
@@ -38,7 +38,12 @@ body {
 .p-Menu {
   margin-top: 2px;
 }
-
+#jp-title-panel-title h1 {
+  /* Header title in simple mode */
+  color: var(--tailwind-base-font-color);
+  font-weight: lighter;
+  font-size: 16px;
+}
 
 /* -- File tabs -- */
 /* Remove blue background */
@@ -73,7 +78,24 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 /* Status bar font color */
 .f1235lqo, .jp-switch {
   color: white;
+  border-radius: initial;
 }
+.fwgmxe9:hover, .jp-switch:hover {
+  background-color: var(--jp-inverse-layout-color4);
+}
+.jp-switch[aria-checked='true'] .jp-switch-track {
+  /* Simple switch: On */
+  background-color: var(--jp-info-color1);
+}
+.jp-switch-track {
+  /* Simple switch: Off */
+  background-color: var(--tailwind-grey-900);
+}
+.jp-switch-track::before {
+  /* Simple switch: Color */
+  background-color: white;
+}
+
 
 
 /* -- Sidebar -- */
