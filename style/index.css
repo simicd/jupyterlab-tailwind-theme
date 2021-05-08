@@ -259,21 +259,22 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 }
 
 /* Scrollbar */
-div {
+div, ul {
   /* Currently only supported in Firefox */
   scrollbar-color: var(--tailwind-scrollbar-thumb-color) var(--tailwind-scrollbar-track-color);
 }
-div::-webkit-scrollbar {
+div::-webkit-scrollbar, ul::-webkit-scrollbar {
+  background-color: var(--tailwind-scrollbar-track-color);
+  border-radius:  var(--jp-border-radius);
+  width: 12px;
+}
+
+div::-webkit-scrollbar-track, ul::-webkit-scrollbar-track {
   background-color: var(--tailwind-scrollbar-track-color);
   border-radius:  var(--jp-border-radius);
 }
 
-div::-webkit-scrollbar-track {
-  background-color: var(--tailwind-scrollbar-track-color);
-  border-radius:  var(--jp-border-radius);
-}
-
-div::-webkit-scrollbar-thumb {
+div::-webkit-scrollbar-thumb, ul::-webkit-scrollbar-thumb {
   background-color: var(--tailwind-scrollbar-thumb-color);
   border-radius:  var(--jp-border-radius);
 }
