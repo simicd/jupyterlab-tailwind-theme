@@ -2,8 +2,9 @@
 
 A JupyterLab theme extension inspired by [Tailwind CSS](https://tailwindcss.com/).
 
-## Changes (v3.0.1)
+## Changes (v3.0.2)
 > ✨ Support for new release of JupyterLab (>= v3.0)
+
 > ✨ Updated scrollbar & footer colors
 
 Thanks to [Wiktor Flis (@WestedCrean)](https://github.com/WestedCrean) for contributing this update!
