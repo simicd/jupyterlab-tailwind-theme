@@ -41,6 +41,9 @@ const plugin: JupyterFrontEndPlugin<void> = {
         // Menu color
         document.documentElement.style.setProperty('--tailwind-menu-color', 'var(--tailwind-indigo-800)');
 
+        // Line border color
+        document.documentElement.style.setProperty('--jp-border-color2', 'var(--tailwind-grey-400)');
+
         // Editor colors
         document.documentElement.style.setProperty('--jp-mirror-editor-keyword-color', 'var(--tailwind-green-700)');
         document.documentElement.style.setProperty('--jp-mirror-editor-atom-color', 'var(--tailwind-blue-600)');
@@ -104,6 +107,9 @@ const plugin: JupyterFrontEndPlugin<void> = {
 
         // Menu color
         document.documentElement.style.setProperty('--tailwind-menu-color', 'var(--tailwind-indigo-800)');
+
+        // Line border color
+        document.documentElement.style.setProperty('--jp-border-color2', 'var(--tailwind-grey-700)');
 
         // Editor colors
         document.documentElement.style.setProperty('--jp-mirror-editor-keyword-color', 'var(--tailwind-green-500)');

@@ -44,6 +44,10 @@ body {
   font-weight: lighter;
   font-size: 16px;
 }
+.lm-Menu-item[data-type='separator'] > div::after {
+  /* Separator color */
+  border-top: var(--jp-border-width) solid var(--jp-border-color2);
+}
 
 /* -- File tabs -- */
 /* Remove blue background */
@@ -66,6 +70,13 @@ body {
 /* File menu button hover */
 button.jp-Button.bp3-button.bp3-minimal:hover {
   background: var(--tailwind-layout-color2);
+}
+
+
+/* -- Extension toolbar  */
+/* Remove lines between extensions */
+.jp-extensionmanager-entry {
+  border-bottom: unset;
 }
 
 
