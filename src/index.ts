@@ -66,7 +66,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--jp-mirror-editor-variable-2-color', 'var(--tailwind-blue-600)');
         document.documentElement.style.setProperty('--jp-mirror-editor-variable-3-color', 'var(--tailwind-green-600)');
         document.documentElement.style.setProperty('--jp-mirror-editor-punctuation-color', 'var(--tailwind-blue-600)');
-        document.documentElement.style.setProperty('--jp-mirror-editor-property-color', 'var(--tailwind-blue-600)');
+        document.documentElement.style.setProperty('--jp-mirror-editor-property-color', 'var(--tailwind-blue-700)');
         document.documentElement.style.setProperty('--jp-mirror-editor-operator-color', '#aa22ff');
         document.documentElement.style.setProperty('--jp-mirror-editor-comment-color', '#408080');
         document.documentElement.style.setProperty('--jp-mirror-editor-string-color', '#ba2121');
@@ -133,7 +133,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--jp-mirror-editor-variable-2-color', '#79d9ff');
         document.documentElement.style.setProperty('--jp-mirror-editor-variable-3-color', 'var(--tailwind-green-600)');
         document.documentElement.style.setProperty('--jp-mirror-editor-punctuation-color', '#79d9ff');
-        document.documentElement.style.setProperty('--jp-mirror-editor-property-color', '#79d9ff');
+        document.documentElement.style.setProperty('--jp-mirror-editor-property-color', 'var(--tailwind-blue-200)');
         document.documentElement.style.setProperty('--jp-mirror-editor-operator-color', '#daabf7');
         document.documentElement.style.setProperty('--jp-mirror-editor-comment-color', '#aebca8');
         document.documentElement.style.setProperty('--jp-mirror-editor-string-color', '#ce9178');
