@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-tailwind-theme",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "A JupyterLab theme extension inspired by Tailwind CSS.",
   "author": {
     "name": "simicd",
@@ -19,6 +19,7 @@
     "lib/*.d.ts",
     "lib/*.js.map",
     "lib/*.js",
+    "schema/*.json",
     "style/*",
     "style/index.js"
   ],
@@ -37,7 +38,8 @@
   },
   "dependencies": {
     "@jupyterlab/application": "^3.0.7",
-    "@jupyterlab/apputils": "^3.0.5"
+    "@jupyterlab/apputils": "^3.0.5",
+    "@jupyterlab/settingregistry": "^3.0.5"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^3.0.0",
@@ -67,7 +69,8 @@
   "jupyterlab": {
     "extension": true,
     "themePath": "style/index.css",
-    "outputDir": "jupyterlab-tailwind-theme/labextension"
+    "outputDir": "jupyterlab-tailwind-theme/labextension",
+    "schemaDir": "schema"
   },
   "homepage": "https://github.com/simicd/jupyterlab-tailwind-theme",
   "bugs": {

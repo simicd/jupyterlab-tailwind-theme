@@ -4,6 +4,9 @@ import {
 } from '@jupyterlab/application';
 
 import { IThemeManager } from '@jupyterlab/apputils';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
+
+const extensionId = 'jupyterlab-tailwind-theme:plugin';
 
 /**
  * A plugin for jupyterlab-tailwind-theme
@@ -11,10 +14,20 @@ import { IThemeManager } from '@jupyterlab/apputils';
  * defined in index.css which is overridden here depending of the choice of theme.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'jupyterlab-tailwind-theme:plugin',
-  requires: [IThemeManager],
-  activate: function(app: JupyterFrontEnd, manager: IThemeManager) {
+  id: extensionId,
+  requires: [IThemeManager, ISettingRegistry],
+  activate: function(app: JupyterFrontEnd, manager: IThemeManager, settingRegistry: ISettingRegistry,) {
     const style = 'jupyterlab-tailwind-theme/index.css';
+    let width = "";
+
+    // Load settings
+    Promise.all([
+      settingRegistry.load(extensionId),
+      app.restored
+    ]).then(async ([settings]) => {
+      width = settings.get('maxCellWidth').composite.toString();
+      document.documentElement.style.setProperty('--max-cell-width', width);
+    });
 
     manager.register({
       name: 'Tailwind Light',
@@ -149,7 +162,6 @@ const plugin: JupyterFrontEndPlugin<void> = {
       },
       unload: () => Promise.resolve(undefined)
     });
-
 
   },
   autoStart: true
