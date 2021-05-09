@@ -155,9 +155,9 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
   z-index: -10;           /* Position highlighting behind text */
 }
 
-/* Max-widht for main content/cell blocks */
+/* Max-width for main content/cell blocks */
 .jp-Notebook .jp-Cell {
-  max-width: 1000px;
+  max-width: var(--max-cell-width);
   margin: auto;
 }
 
