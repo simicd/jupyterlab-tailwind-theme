@@ -58,7 +58,7 @@ body {
 /* Shrink tab width to content (remove space) */
 .p-DockPanel-tabBar .p-TabBar-tab {
   flex: none;
-  color: var(--tailwind-grey-500);
+  color: var(--tailwind-grey-400);
 }
 
 
@@ -84,7 +84,7 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 /* -- Status bar (bottom) --  */
 /* Status bar background*/
 .f17wptjy {
-  background: var(--tailwind-grey-700);
+  background: var(--tailwind-grey-600);
 }
 
 /* Status bar font color */
@@ -101,7 +101,7 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 }
 .jp-switch-track {
   /* Simple switch: Off */
-  background-color: var(--tailwind-grey-900);
+  background-color: var(--tailwind-grey-800);
 }
 .jp-switch-track::before {
   /* Simple switch: Color */

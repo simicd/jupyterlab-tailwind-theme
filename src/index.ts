@@ -37,15 +37,15 @@ const plugin: JupyterFrontEndPlugin<void> = {
         // Theme colors
         document.documentElement.style.setProperty('--tailwind-layout-color0', 'rgb(var(--tailwind-white))');
         document.documentElement.style.setProperty('--tailwind-layout-color1', 'rgb(var(--tailwind-white))');
-        document.documentElement.style.setProperty('--tailwind-layout-color2', 'var(--tailwind-grey-300)');
+        document.documentElement.style.setProperty('--tailwind-layout-color2', 'var(--tailwind-grey-200)');
         document.documentElement.style.setProperty('--tailwind-layout-color3', 'var(--tailwind-indigo-600)');
-        document.documentElement.style.setProperty('--tailwind-layout-color4', 'var(--tailwind-grey-600)');
+        document.documentElement.style.setProperty('--tailwind-layout-color4', 'var(--tailwind-grey-500)');
 
-        document.documentElement.style.setProperty('--tailwind-inverse-layout-color2', 'var(--tailwind-grey-400)');
+        document.documentElement.style.setProperty('--tailwind-inverse-layout-color2', 'var(--tailwind-grey-300)');
         document.documentElement.style.setProperty('--tailwind-inverse-layout-color3', 'var(--tailwind-indigo-800)');
 
         // Object & font colors
-        document.documentElement.style.setProperty('--tailwind-background-color', 'var(--tailwind-grey-100)');
+        document.documentElement.style.setProperty('--tailwind-background-color', 'var(--tailwind-grey-50)');
         document.documentElement.style.setProperty('--tailwind-code-cell-color', 'var(--md-grey-100)');
         document.documentElement.style.setProperty('--tailwind-base-font-color', 'var(--tailwind-black)');
         document.documentElement.style.setProperty('--tailwind-inverse-font-color', 'var(--tailwind-white)');
@@ -55,7 +55,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--tailwind-menu-color', 'var(--tailwind-indigo-800)');
 
         // Line border color
-        document.documentElement.style.setProperty('--jp-border-color2', 'var(--tailwind-grey-400)');
+        document.documentElement.style.setProperty('--jp-border-color2', 'var(--tailwind-grey-300)');
 
         // Editor colors
         document.documentElement.style.setProperty('--jp-mirror-editor-keyword-color', 'var(--tailwind-green-700)');
@@ -89,7 +89,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--jp-search-unselected-match-background-color', 'var(--tailwind-green-200)');
 
         // Scrollbar color
-        document.documentElement.style.setProperty('--tailwind-scrollbar-thumb-color', 'var(--tailwind-grey-400)');
+        document.documentElement.style.setProperty('--tailwind-scrollbar-thumb-color', 'var(--tailwind-grey-300)');
 
         return manager.loadCSS(style)
       },
@@ -102,18 +102,18 @@ const plugin: JupyterFrontEndPlugin<void> = {
       load: () =>  {
 
         // Theme colors
-        document.documentElement.style.setProperty('--tailwind-layout-color0', 'var(--tailwind-grey-900)');
-        document.documentElement.style.setProperty('--tailwind-layout-color1', 'var(--tailwind-grey-900)');
-        document.documentElement.style.setProperty('--tailwind-layout-color2', 'var(--tailwind-grey-950)');
+        document.documentElement.style.setProperty('--tailwind-layout-color0', 'var(--tailwind-grey-800)');
+        document.documentElement.style.setProperty('--tailwind-layout-color1', 'var(--tailwind-grey-800)');
+        document.documentElement.style.setProperty('--tailwind-layout-color2', 'var(--tailwind-grey-900)');
         document.documentElement.style.setProperty('--tailwind-layout-color3', 'var(--tailwind-indigo-300)');
-        document.documentElement.style.setProperty('--tailwind-layout-color4', 'var(--tailwind-grey-400)');
+        document.documentElement.style.setProperty('--tailwind-layout-color4', 'var(--tailwind-grey-300)');
 
-        document.documentElement.style.setProperty('--tailwind-inverse-layout-color2', 'var(--tailwind-grey-600)');
+        document.documentElement.style.setProperty('--tailwind-inverse-layout-color2', 'var(--tailwind-grey-500)');
         document.documentElement.style.setProperty('--tailwind-inverse-layout-color3', 'var(--tailwind-indigo-600)');
 
         // Object & font colors
         document.documentElement.style.setProperty('--tailwind-background-color', 'rgb(var(--tailwind-black))');
-        document.documentElement.style.setProperty('--tailwind-code-cell-color', 'var(--tailwind-grey-800)');
+        document.documentElement.style.setProperty('--tailwind-code-cell-color', 'var(--tailwind-grey-700)');
         document.documentElement.style.setProperty('--tailwind-base-font-color', 'var(--tailwind-white)');
         document.documentElement.style.setProperty('--tailwind-inverse-font-color', 'var(--tailwind-black)');
         document.documentElement.style.setProperty('--jp-rendermime-error-background', 'var(--tailwind-red-900)');
@@ -122,7 +122,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--tailwind-menu-color', 'var(--tailwind-indigo-800)');
 
         // Line border color
-        document.documentElement.style.setProperty('--jp-border-color2', 'var(--tailwind-grey-700)');
+        document.documentElement.style.setProperty('--jp-border-color2', 'var(--tailwind-grey-600)');
 
         // Editor colors
         document.documentElement.style.setProperty('--jp-mirror-editor-keyword-color', 'var(--tailwind-green-500)');
@@ -156,7 +156,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--jp-search-unselected-match-background-color', 'var(--tailwind-green-800)');
 
         // Scrollbar color
-        document.documentElement.style.setProperty('--tailwind-scrollbar-thumb-color', 'var(--tailwind-grey-700)');
+        document.documentElement.style.setProperty('--tailwind-scrollbar-thumb-color', 'var(--tailwind-grey-600)');
 
         return manager.loadCSS(style)
       },
