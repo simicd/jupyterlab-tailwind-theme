@@ -31,6 +31,16 @@ Tip: To display matplotlib charts in dark mode execute `plt.style.use('dark_back
 </br>
 </br>
 
+## Settings
+The following settings are available in (`Settings` -> `Advanced Settings Editor` -> `Theme - Tailwind`):
+- **maxCellWidth**: Maximum width of notebook cells (e.g. '1200px', '80%', ...)
+### Sample
+```json
+{
+    maxCellWidth: "80%"
+}
+```
+
 ## Prerequisites
 
 * JupyterLab
