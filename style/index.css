@@ -33,7 +33,7 @@ body {
 }
 .p-MenuBar.p-mod-active .p-MenuBar-item.p-mod-active,
 .p-MenuBar-item:hover {
-  background: var(--tailwind-indigo-900);
+  background: var(--tailwind-primary-900);
   box-shadow: none;
 }
 .p-Menu {

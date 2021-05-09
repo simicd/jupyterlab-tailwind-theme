@@ -98,6 +98,29 @@ selected styles provided by JupyterLab (see `variables.css`)
   --tailwind-black: 9, 11, 15;
   --tailwind-white: 255, 255, 255;
 
+  /* Default primary/secondary colors */
+  --tailwind-primary-50: var(--tailwind-indigo-50);
+  --tailwind-primary-100: var(--tailwind-indigo-100);
+  --tailwind-primary-200: var(--tailwind-indigo-200);
+  --tailwind-primary-300: var(--tailwind-indigo-300);
+  --tailwind-primary-400: var(--tailwind-indigo-400);
+  --tailwind-primary-500: var(--tailwind-indigo-500);
+  --tailwind-primary-600: var(--tailwind-indigo-600);
+  --tailwind-primary-700: var(--tailwind-indigo-700);
+  --tailwind-primary-800: var(--tailwind-indigo-800);
+  --tailwind-primary-900: var(--tailwind-indigo-900);
+
+  --tailwind-secondary-50: var(--tailwind-blue-50);
+  --tailwind-secondary-100: var(--tailwind-blue-100);
+  --tailwind-secondary-200: var(--tailwind-blue-200);
+  --tailwind-secondary-300: var(--tailwind-blue-300);
+  --tailwind-secondary-400: var(--tailwind-blue-400);
+  --tailwind-secondary-500: var(--tailwind-blue-500);
+  --tailwind-secondary-600: var(--tailwind-blue-600);
+  --tailwind-secondary-700: var(--tailwind-blue-700);
+  --tailwind-secondary-800: var(--tailwind-blue-800);
+  --tailwind-secondary-900: var(--tailwind-blue-900);
+
   /* Background */
   --tailwind-background-color: var(--tailwind-grey-50);
   --tailwind-code-cell-color: var(--md-grey-100);
@@ -105,17 +128,17 @@ selected styles provided by JupyterLab (see `variables.css`)
   --tailwind-inverse-font-color: var(--tailwind-white);
 
   /* Main menu bar */
-  --tailwind-menu-color: var(--tailwind-indigo-800);
+  --tailwind-menu-color: var(--tailwind-primary-800);
 
   /* Layout color */
   --tailwind-layout-color0: rgb(var(--tailwind-white));
   --tailwind-layout-color1: rgb(var(--tailwind-white));
   --tailwind-layout-color2: var(--tailwind-grey-200);
-  --tailwind-layout-color3: var(--tailwind-indigo-800);
+  --tailwind-layout-color3: var(--tailwind-primary-800);
   --tailwind-layout-color4: var(--tailwind-grey-500);
 
   --tailwind-inverse-layout-color2: var(--tailwind-grey-700);
-  --tailwind-inverse-layout-color3: var(--tailwind-indigo-800);
+  --tailwind-inverse-layout-color3: var(--tailwind-primary-800);
 
   /* Scrollbar */
   --tailwind-scrollbar-track-color: var(--tailwind-layout-color0);
@@ -218,11 +241,11 @@ selected styles provided by JupyterLab (see `variables.css`)
 
   /* Brand/accent */
 
-  --jp-brand-color0: var(--tailwind-blue-700);
-  --jp-brand-color1: var(--tailwind-blue-500);
-  --jp-brand-color2: var(--tailwind-blue-300);
-  --jp-brand-color3: var(--tailwind-blue-100);
-  --jp-brand-color4: var(--tailwind-blue-100);
+  --jp-brand-color0: var(--tailwind-secondary-700);
+  --jp-brand-color1: var(--tailwind-secondary-500);
+  --jp-brand-color2: var(--tailwind-secondary-300);
+  --jp-brand-color3: var(--tailwind-secondary-100);
+  --jp-brand-color4: var(--tailwind-secondary-100);
 
   --jp-accent-color0: var(--tailwind-green-700);
   --jp-accent-color1: var(--tailwind-green-500);
@@ -246,10 +269,10 @@ selected styles provided by JupyterLab (see `variables.css`)
   --jp-success-color2: var(--tailwind-green-300);
   --jp-success-color3: var(--tailwind-green-100);
 
-  --jp-info-color0: var(--tailwind-indigo-700);
-  --jp-info-color1: var(--tailwind-indigo-500);
-  --jp-info-color2: var(--tailwind-indigo-300);
-  --jp-info-color3: var(--tailwind-indigo-100);
+  --jp-info-color0: var(--tailwind-primary-700);
+  --jp-info-color1: var(--tailwind-primary-500);
+  --jp-info-color2: var(--tailwind-primary-300);
+  --jp-info-color3: var(--tailwind-primary-100);
 
   /* Cell specific styles */
 

@@ -38,11 +38,11 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--tailwind-layout-color0', 'rgb(var(--tailwind-white))');
         document.documentElement.style.setProperty('--tailwind-layout-color1', 'rgb(var(--tailwind-white))');
         document.documentElement.style.setProperty('--tailwind-layout-color2', 'var(--tailwind-grey-200)');
-        document.documentElement.style.setProperty('--tailwind-layout-color3', 'var(--tailwind-indigo-600)');
+        document.documentElement.style.setProperty('--tailwind-layout-color3', 'var(--tailwind-primary-600)');
         document.documentElement.style.setProperty('--tailwind-layout-color4', 'var(--tailwind-grey-500)');
 
         document.documentElement.style.setProperty('--tailwind-inverse-layout-color2', 'var(--tailwind-grey-300)');
-        document.documentElement.style.setProperty('--tailwind-inverse-layout-color3', 'var(--tailwind-indigo-800)');
+        document.documentElement.style.setProperty('--tailwind-inverse-layout-color3', 'var(--tailwind-primary-800)');
 
         // Object & font colors
         document.documentElement.style.setProperty('--tailwind-background-color', 'var(--tailwind-grey-50)');
@@ -52,7 +52,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--jp-rendermime-error-background', 'var(--tailwind-red-200)');
 
         // Menu color
-        document.documentElement.style.setProperty('--tailwind-menu-color', 'var(--tailwind-indigo-800)');
+        document.documentElement.style.setProperty('--tailwind-menu-color', 'var(--tailwind-primary-800)');
 
         // Line border color
         document.documentElement.style.setProperty('--jp-border-color2', 'var(--tailwind-grey-300)');
@@ -105,11 +105,11 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--tailwind-layout-color0', 'var(--tailwind-grey-800)');
         document.documentElement.style.setProperty('--tailwind-layout-color1', 'var(--tailwind-grey-800)');
         document.documentElement.style.setProperty('--tailwind-layout-color2', 'var(--tailwind-grey-900)');
-        document.documentElement.style.setProperty('--tailwind-layout-color3', 'var(--tailwind-indigo-300)');
+        document.documentElement.style.setProperty('--tailwind-layout-color3', 'var(--tailwind-primary-300)');
         document.documentElement.style.setProperty('--tailwind-layout-color4', 'var(--tailwind-grey-300)');
 
         document.documentElement.style.setProperty('--tailwind-inverse-layout-color2', 'var(--tailwind-grey-500)');
-        document.documentElement.style.setProperty('--tailwind-inverse-layout-color3', 'var(--tailwind-indigo-600)');
+        document.documentElement.style.setProperty('--tailwind-inverse-layout-color3', 'var(--tailwind-primary-600)');
 
         // Object & font colors
         document.documentElement.style.setProperty('--tailwind-background-color', 'rgb(var(--tailwind-black))');
@@ -119,7 +119,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
         document.documentElement.style.setProperty('--jp-rendermime-error-background', 'var(--tailwind-red-900)');
 
         // Menu color
-        document.documentElement.style.setProperty('--tailwind-menu-color', 'var(--tailwind-indigo-800)');
+        document.documentElement.style.setProperty('--tailwind-menu-color', 'var(--tailwind-primary-800)');
 
         // Line border color
         document.documentElement.style.setProperty('--jp-border-color2', 'var(--tailwind-grey-600)');
