@@ -4,6 +4,7 @@
 |----------------------------------------------------------------------------*/
 
 @import './variables.css';
+@import './tailwindVariables.css';
 @import './urls.css';
 
 /* Set the default typography for monospace elements */
