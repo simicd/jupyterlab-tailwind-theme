@@ -81,6 +81,10 @@ button.jp-Button.bp3-button.bp3-minimal:hover {
 
 
 /* -- Status bar (bottom) --  */
+#jp-main-statusbar {
+  background: var(--tailwind-menu-color);
+}
+
 /* Status bar background*/
 .f17wptjy {
   background: var(--tailwind-grey-700);

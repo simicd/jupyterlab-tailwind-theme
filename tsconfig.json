@@ -11,8 +11,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "target": "es2015",
-    "lib": ["dom", "es2015"],
+    "target": "es2018",
     "jsx": "react",
     "types": [],
 
